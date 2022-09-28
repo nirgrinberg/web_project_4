@@ -20,7 +20,7 @@ Add new images and delete that you don't want. Change the names of images and li
 
 
 * [Link to the project in Figma](https://www.figma.com/file/SurN1jaeEQIhuZEDMhmWWf/Sprint-4-Around-The-U.S.-desktop-mobile?node-id=0%3A1)
-* [Link to the project in GitHub pages] (https://cyberbios.github.io/web_project_4/)
+* [Link to the project in GitHub pages] ( https://nirgrinberg.github.io/web_project_4/)
 * [Link to the tinypng compact images] (https://tinypng.com/)
 
 **Images**
