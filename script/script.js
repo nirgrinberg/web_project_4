@@ -35,8 +35,8 @@ const cardTemplate = document.querySelector("#card").content;
 
 const initialCards = [
   {
-    name: "Government office in Putrajaya, Malaysia.",
-    link: "https://images.unsplash.com/photo-1648291881755-f984c18e16cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
+    name: "Yosemite Valley",
+    link: "https://code.s3.yandex.net/web-code/yosemite.jpg"
   },
   {
     name: "Lake Louise",
