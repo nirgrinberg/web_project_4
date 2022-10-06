@@ -65,7 +65,7 @@ function openPopup(modal) {
   modal.classList.add("popup_opened");
 }
 //Hidden popup
-function hiddenPopup(modal) {
+function hidePopup(modal) {
   modal.classList.remove("popup_opened");
 }
 
@@ -120,7 +120,7 @@ function handleProfileFormSubmit(evt) {
   profileName.textContent = nameEditProfileInput.value;
   profileJob.textContent = jobEditProfileInput.value;
 
-  hiddenPopup(editProfileModal);
+  hidePopup(editProfileModal);
 }
 //Submit information about new card
 function handleAddCardFormSubmit(evt) {
@@ -130,7 +130,7 @@ function handleAddCardFormSubmit(evt) {
 
   gallery.prepend(cardElement);
 
-  hiddenPopup(addCardModal);
+  hidePopup(addCardModal);
   addCardFormElement.reset();
 }
 
@@ -139,16 +139,16 @@ editProfileModalButton.addEventListener("click", () => {
   openPopup(editProfileModal);
 });
 editProfileModalCloseButton.addEventListener("click", () =>
-  hiddenPopup(editProfileModal)
+  hidePopup(editProfileModal)
 );
 
 addCardModalButton.addEventListener("click", () => openPopup(addCardModal));
 addcardModalCloseButton.addEventListener("click", () =>
-  hiddenPopup(addCardModal)
+  hidePopup(addCardModal)
 );
 
 cardViewModalCloseButton.addEventListener("click", () =>
-  hiddenPopup(cardViewModal)
+  hidePopup(cardViewModal)
 );
 
 //Add all cards from array by templates
