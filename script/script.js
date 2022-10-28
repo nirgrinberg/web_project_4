@@ -79,7 +79,7 @@ const openPopup = (modal) => {
  */
 const hidePopup = (modal) => {
   modal.classList.remove("popup_opened");
-  modal.removeEventListener("keydown", closePopupByEscape);
+  document.removeEventListener("keydown", closePopupByEscape);
   modal.removeEventListener("mousedown", closePopupOnRemoteClick);
 };
 
@@ -133,7 +133,7 @@ const initCard = (card) => {
     listItem.remove();
   });
 
-  cardElement.querySelector(".card__image").addEventListener("click", (e) => {
+  imageElement.addEventListener("click", (e) => {
     openPreviewPopup(cardElement);
   });
 
