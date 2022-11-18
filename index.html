@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Project-Around The U.S." />
+    <meta name="keywords" content="Around The U.S." />
     <meta name="author" content="Nir Grinberg" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" />
     <title>Around The U.S.</title>
   </head>
   <body class="page">
@@ -40,7 +41,7 @@
       <div class="popup__content">
         <button type="button" class="popup__close"></button>
         <h2 class="popup__header">Edit profile</h2>
-        <form name="card-form" class="form popup__form" novalidate>
+        <form name="profile" class="form popup__form" novalidate>
           <fieldset class="form__editor">
             <input
               id="name-input"
@@ -75,7 +76,7 @@
       <div class="popup__content">
         <button type="button" class="popup__close"></button>
         <h2 class="popup__header">New place</h2>
-        <form name="card-form" class="form popup__form" novalidate>
+        <form name="profile" class="form popup__form" novalidate>
           <fieldset class="form__editor">
             <input
               id="title-input"
@@ -101,7 +102,7 @@
           <button type="submit" class="form__button">Save</button>
         </form>
       </div>
-    </div>
+    </div>>
 
     <!-- View Card by Popup -->
     <div class="popup popup_type_card">
@@ -132,7 +133,7 @@
       </div>
     </template>
 
-    <script src="./script/validation.js"></script>
-    <script src="./script/script.js"></script>
+    <!-- <script src="./script/validation.js"></script> -->
+    <script type="module" src="./script/script.js"></script>
   </body>
 </html>
