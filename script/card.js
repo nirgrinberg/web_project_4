@@ -6,7 +6,10 @@ class Card {
       this._handleImageClick = handleImageClick;
       
     }
- 
+  
+    /**
+     * remove card
+     */
     _handleDelete = () => {
       this._element.remove();
       this._element = null;
